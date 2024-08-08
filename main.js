@@ -18,3 +18,4 @@ const author = document.getElementById("author");
 let randomNum = Math.floor(Math.random() * 4);
 
 text.innerText = quotes[randomNum];
+author.innerText = authors[randomNum];
