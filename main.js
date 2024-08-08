@@ -18,12 +18,12 @@ const button = document.getElementById("new-quote");
 
 let randomNum = Math.floor(Math.random() * 4);
 
-text.innerText = quotes[randomNum];
-author.innerText = authors[randomNum];
+text.innerText = `"${quotes[randomNum]}"`;
+author.innerText = `-${authors[randomNum]}`;
 
 button.addEventListener("click", function() {
     let random = Math.floor(Math.random() * 4);
 
-    text.innerText = quotes[random];
-    author.innerText = authors[random];
+    text.innerText = `"${quotes[random]}"`;
+    author.innerText = `- ${authors[random]}`;
 });
