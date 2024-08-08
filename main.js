@@ -8,3 +8,5 @@ const quotes = [
 const text = document.getElementById("text");
 
 let randomNum = Math.floor(Math.random() * 4);
+
+text.innerText = quotes[randomNum];
