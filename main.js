@@ -13,6 +13,7 @@ const authors = [
 ]
 
 const text = document.getElementById("text");
+const author = document.getElementById("author");
 
 let randomNum = Math.floor(Math.random() * 4);
 
