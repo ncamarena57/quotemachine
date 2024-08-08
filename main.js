@@ -15,6 +15,7 @@ const authors = [
 const text = document.getElementById("text");
 const author = document.getElementById("author");
 const button = document.getElementById("new-quote");
+const tweet = document.getElementById("tweet-quote");
 
 let randomNum = Math.floor(Math.random() * 4);
 
