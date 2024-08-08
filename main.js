@@ -15,6 +15,7 @@ const authors = [
 const text = document.getElementById("text");
 const author = document.getElementById("author");
 const button = document.getElementById("new-quote");
+const tweet = document.getElementById("tweet-quote");
 
 let randomNum = Math.floor(Math.random() * 4);
 
@@ -23,7 +24,6 @@ author.innerText = `-${authors[randomNum]}`;
 
 button.addEventListener("click", function() {
     let random = Math.floor(Math.random() * 4);
-
     text.innerText = `"${quotes[random]}"`;
     author.innerText = `- ${authors[random]}`;
 });
